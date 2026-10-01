@@ -18,3 +18,13 @@ Para resolver el conflicto, se deben revisar ambas versiones y decidir cual cons
 Despues de realizar los cambios, se eliminan las marcas del conflicto.
 Finalmente, se utiliza `git add` para indicar que el conflicto fue solucionado.
 Luego se realiza un `git commit` para guardar la resolucion en el repositorio.
+
+## 3.3 Conflictos
+
+Un conflicto ocurre cuando dos personas modifican la misma parte de un archivo y Git no puede decidir que version conservar.
+Esto puede ocurrir al ejecutar `git pull` cuando existen cambios diferentes entre el repositorio local y remoto.
+Git muestra las diferencias con las marcas `<<<<<<<`, `=======` y `>>>>>>>`.
+Se deben revisar ambas versiones para decidir cual conservar o si se pueden combinar.
+Despues de resolverlo, se eliminan las marcas del conflicto y se guarda el archivo.
+Luego se utiliza `git add` para indicar que el conflicto fue solucionado.
+Finalmente, se realiza un `git commit` para guardar los cambios resueltos.
