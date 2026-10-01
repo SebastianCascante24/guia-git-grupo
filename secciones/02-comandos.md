@@ -20,3 +20,12 @@ El correo se configura con `git config --global user.email "correo@ejemplo.com"`
 Es recomendable utilizar el mismo correo asociado a nuestra cuenta de GitHub.
 De esta manera, los commits pueden quedar relacionados correctamente con nuestro perfil.
 También podemos usar `git config --global --list` para revisar la configuración que tenemos guardada.
+## 2.3 El ciclo status, add, commit y push
+
+El trabajo con Git sigue un ciclo que nos permite controlar los cambios que realizamos en un proyecto.
+Primero usamos `git status` para revisar cuáles archivos fueron modificados y conocer su estado.
+Después utilizamos `git add` para preparar los cambios que queremos incluir en el siguiente commit.
+Con `git commit -m "mensaje"` registramos esos cambios en nuestro repositorio local y dejamos una descripción de lo realizado.
+Luego utilizamos `git push origin main` para enviar nuestros commits al repositorio remoto en GitHub.
+Si otro integrante subió cambios antes, puede ser necesario ejecutar `git pull origin main` antes de realizar el push.
+Este ciclo ayuda a mantener un historial ordenado y permite que varias personas trabajen sobre un mismo proyecto.
