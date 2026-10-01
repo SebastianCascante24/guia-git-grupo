@@ -25,3 +25,13 @@ los principales problemas son:
 - cada version se guarda con autor, cambio, fecha y aveces mensaje
 - se puede restaurar a versiones anteriores
 - muestra que lineas se cambiaron entre las versiones
+
+## 1.4 Centralizado y distribuido
+
+Control de versiones centralizado: un solo servidor con el repositorio completo y su historial. Cada persona descarga una copia de trabajo y envía sus cambios al servidor. 
+- ventajas: modelo sencillo, control de accesos en un solo lugar.
+- desventajas: depende de la conexión con el servidor para casi todas las operaciones y, si el servidor falla y no hay respaldo, se puede perder el historial.
+
+Control de versiones distribuido: cada persona tiene una copia completa del repositorio con todo el historial. Los cambios se registran localmente y luego se sincronizan con otros repositorios.
+- ventajas: se trabaja sin conexión, las operaciones son rápidas, cada copia sirve de respaldo y facilita flujos con ramas.
+- desventajas: mayor curva de aprendizaje y conceptos adicionales (clonar, fetch, push, pull).
