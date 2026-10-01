@@ -28,3 +28,13 @@ Se deben revisar ambas versiones para decidir cual conservar o si se pueden comb
 Despues de resolverlo, se eliminan las marcas del conflicto y se guarda el archivo.
 Luego se utiliza `git add` para indicar que el conflicto fue solucionado.
 Finalmente, se realiza un `git commit` para guardar los cambios resueltos.
+
+
+## 3.4 Buenas practicas de commits
+
+Es recomendable hacer **commits pequenos** para que cada uno represente un cambio especifico.
+Se debe procurar hacer un commit por cada cambio realizado en el proyecto.
+Los mensajes deben ser **descriptivos** para saber facilmente que se modifico.
+Es mejor escribir los mensajes en **presente**, por ejemplo: `Agregar pagina de inicio`.
+Tambien se debe evitar mezclar muchos cambios diferentes en un mismo commit.
+De esta forma, el historial del proyecto se mantiene ordenado y es mas facil revisar los cambios.
