@@ -19,3 +19,9 @@ los principales problemas son:
 - cada copia guarda todo el proyecto po mas que los cambios sean minimos (se desperdicia espacio)
 - el "historial" no es muy util porque solo indica fechas
 - comparar entre "versiones" es manual
+
+## 1.3 Qué resuelve un sistema de control de versiones
+
+- cada version se guarda con autor, cambio, fecha y aveces mensaje
+- se puede restaurar a versiones anteriores
+- muestra que lineas se cambiaron entre las versiones
