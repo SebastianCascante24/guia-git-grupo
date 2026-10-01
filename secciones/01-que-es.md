@@ -8,3 +8,14 @@ Es registrar los cambios que se hacen en un repo a lo largo del tiempo, permite 
 - cuando lo hizo
 - mensaje descriptivo de porque lo hizo (depende de la persona)
 - los cambios que hizo y sobre que archivos
+
+## 1.2 El método de las copias con fecha y sus problemas
+
+es duplicar la carpeta o el archivo y le agrega la fecha al nombre 
+
+los principales problemas son:
+
+- desorden por acumulacion de copias
+- cada copia guarda todo el proyecto po mas que los cambios sean minimos (se desperdicia espacio)
+- el "historial" no es muy util porque solo indica fechas
+- comparar entre "versiones" es manual
