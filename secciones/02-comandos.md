@@ -29,3 +29,12 @@ Con `git commit -m "mensaje"` registramos esos cambios en nuestro repositorio lo
 Luego utilizamos `git push origin main` para enviar nuestros commits al repositorio remoto en GitHub.
 Si otro integrante subió cambios antes, puede ser necesario ejecutar `git pull origin main` antes de realizar el push.
 Este ciclo ayuda a mantener un historial ordenado y permite que varias personas trabajen sobre un mismo proyecto.
+## 2.4 Consultar el historial
+
+Git también permite consultar el historial de los cambios que se han realizado en el proyecto.
+El comando `git log` muestra información detallada de los commits registrados en el repositorio.
+Si queremos una vista más sencilla podemos utilizar `git log --oneline`.
+Este comando presenta cada commit en una sola línea, mostrando su identificador y el mensaje correspondiente.
+También podemos usar `git log --pretty=format:"%an"` para consultar los nombres de las personas que realizaron los commits.
+Revisar el historial permite comprobar quién hizo cada cambio y seguir la evolución del proyecto.
+Esto es especialmente útil cuando varias personas trabajan de manera colaborativa en un mismo repositorio.
