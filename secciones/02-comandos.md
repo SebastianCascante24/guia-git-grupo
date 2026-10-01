@@ -11,3 +11,12 @@ Para pasar un archivo a esta zona utilizamos el comando `git add`.
 La tercera zona es el repositorio local, donde Git guarda los cambios que ya confirmamos mediante un commit.
 El comando `git commit` permite registrar esos cambios y conservarlos dentro del historial del proyecto.
 Estas tres zonas permiten revisar y organizar los cambios antes de guardarlos definitivamente en el historial.
+## 2.2 Configuración inicial
+
+Antes de comenzar a trabajar con Git es importante configurar nuestra identidad.
+Git utiliza un nombre y un correo electrónico para identificar quién realizó cada commit.
+El nombre se configura utilizando `git config --global user.name "Nombre Completo"`.
+El correo se configura con `git config --global user.email "correo@ejemplo.com"`.
+Es recomendable utilizar el mismo correo asociado a nuestra cuenta de GitHub.
+De esta manera, los commits pueden quedar relacionados correctamente con nuestro perfil.
+También podemos usar `git config --global --list` para revisar la configuración que tenemos guardada.
